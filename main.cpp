@@ -19,15 +19,15 @@ int main()
      * - other game model class, eg. NetworkGameModel
      */
 
-    // auto gameModel = std::make_unique<StandardGameModel>();
-    // texasHolderPoker::GameController gameController{std::move(gameModel)};
-    // auto consoleView = std::make_shared<ConsoleView>();
-    // gameController->addView(consoleView);
-    // gameController->addPlayer(std::make_shared<RandomPlayer>());
-    // gameController->addPlayer(std::make_shared<RandomPlayer>());
-    // gameController->addPlayer(std::make_shared<RandomPlayer>());
-    // texasHolderPoker::GameMoneyRules rules;
-    // gameController->startGame(rules);
+    //auto gameModel = std::make_unique<StandardGameModel>();
+    //texasHolderPoker::GameController gameController{std::move(gameModel)};
+    //auto consoleView = std::make_shared<ConsoleView>();
+//    gameController->addView(consoleView);
+//    gameController->addPlayer(std::make_shared<RandomPlayer>());
+//    gameController->addPlayer(std::make_shared<RandomPlayer>());
+//    gameController->addPlayer(std::make_shared<RandomPlayer>());
+    texasHolderPoker::GameMoneyRules rules;
+    //gameController->startGame(rules);
 
     return 0;
 }

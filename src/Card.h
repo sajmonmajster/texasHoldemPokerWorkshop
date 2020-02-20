@@ -21,7 +21,7 @@ enum class Figure
     Six,
     Seven,
     Eight,
-    Ten,
+    Nine,
     Jack,
     Queen,
     King,
